@@ -1,4 +1,68 @@
+# ResumeOS (R3sum3OS)
 
+ResumeOS (pronounced *re-soo-me-ohs*) is an open-source resume optimization system
+designed for students and early-career professionals.
+
+Its goal is simple:
+help you align your resume with Applicant Tracking Systems (ATS) in a clear,
+explainable, and reproducible way — without relying on black-box AI tools.
+
+ResumeOS does not guess, hallucinate, or invent experience.
+Every result is based on deterministic rules that you can inspect, understand,
+and trust.
+
+------------------------------------------------------------
+
+## Why ResumeOS Exists
+
+Many resume tools today:
+- Automatically rewrite content without explanation
+- Hide scoring logic
+- Use large language models that may invent skills or experience
+
+ResumeOS takes a different approach.
+
+It focuses on:
+- Transparency
+- Control
+- Repeatable results
+- ATS compatibility
+
+If you want to *understand* why your resume scores the way it does — not just
+accept an output — ResumeOS is built for you.
+
+------------------------------------------------------------
+
+## Key Features
+
+[+] ATS Keyword Normalization and Scoring  
+ResumeOS scans the job description and your resume text to identify important
+keywords commonly used by ATS software.
+
+It calculates a match score based on how many relevant keywords overlap between
+the job posting and your resume. This score is fully explainable and reproducible.
+
+---
+
+[+] Job-to-Resume Keyword Gap Analysis  
+ResumeOS shows:
+- Keywords found in both the job description and your resume
+- Keywords that appear in the job description but are missing from your resume
+
+This makes it easy to see what skills or terms you may need to add or clarify.
+
+---
+
+[+] Deterministic Bullet Rewriting with Action Verbs  
+Raw experience text is rewritten into stronger resume bullets using a fixed list
+of professional action verbs.
+
+Important rules:
+- No new experience is invented
+- Meaning is preserved
+- The same input always produces the same output
+
+This improves clarity and professionalism without changing your story.
 ---
 
 [+] Clean, Professional PDF Resume Export  
